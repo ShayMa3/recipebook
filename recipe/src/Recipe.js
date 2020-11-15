@@ -3,9 +3,12 @@ import React from 'react';
 function Recipe(props) {
     return (
         <div>
-            <h1> {props.title} </h1>
+            <h1>Recipe Title: {props.title} </h1>
             <p>
-                {props.ingredient}
+                Cooking Time: {props.time}
+                <br></br>
+                Ingredient 1: {props.ingredient}
+                
             </p>
         </div>
     );
